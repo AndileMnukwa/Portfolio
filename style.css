@@ -357,13 +357,14 @@ margin: 15px 0;
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
     background: linear-gradient(to right, #4e4376, #2b5876);
 }
-#fact .fact-row{
+#fact .fact-row {
     display: grid;
-    grid-template-columns: repeat(4 ,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     margin-top: 50px;
 }
-#fact .fact-row .fact-box{
+
+#fact .fact-row .fact-box i{
     color:var(--themeColor);
     font-size: 40px;
 }
@@ -380,4 +381,80 @@ margin: 15px 0;
 }
 
 /* ---======Mobile View=======---- */
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 700px) {
+     #fact {
+    padding: 40px 15px;
+}
+
+    #fact .fact-row{
+        grid-template-columns: reapeats(2, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    #fact .fact-row .fact-box i{
+        font-size: 30px;
+    }
+    #fact .fact-row .fact-box strong{
+        font-size: 20px;
+    }
+    #fact .fact-row .fact-box p{
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+/* ---========Skill section========------ */
+#skill{
+    padding: 50px 30px;
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to right, #4e4376, #2b5876);
+}
+
+#skill .skill-row{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#skill .skill-row .skill-box .skill-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+#skill .skill-row .skill-box .skill-info h2{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#skill .skill-row .skill-box .skill-outter-line{
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+#skill .skill-row .skill-box .skill-outter-line .skill-inner-line{
+    height: 10px;
+    background-color: var(--themeColor);
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+    #skill{
+        padding: 50px 15px;
+    }
+    
+    #skill .skill-row{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+    
+}
