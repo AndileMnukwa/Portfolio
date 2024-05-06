@@ -267,7 +267,7 @@ color: var(--themeColor);
 
 .sub-para {
   color: var(--textColor);
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.4px;
   font-weight: 500;
   margin-top: 15px;  
@@ -299,7 +299,7 @@ color: var(--themeColor);
 }
 #about .about-col .info-col P {
     color: var(--textColor);
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 0.5px;
     font-size: italic;
 }
@@ -322,12 +322,13 @@ margin: 15px 0;
     color: var(--sidebgColor);
     font-weight: 600;
     margin-right: 2px;
+    font-size: 18px;
 }
 
 #about .about-col .info-col .icon-list-col .icon-list ul li span{
     color:var(--textColor);
     font-weight: 500;
-    font-size: 15px; 
+    font-size: 18px; 
 }
 
 /* ---======Mobile View=======---- */
