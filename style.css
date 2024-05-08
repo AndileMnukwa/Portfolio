@@ -493,7 +493,7 @@ margin: 15px 0;
         border-left: 2px solid var(--themeColor);
         position: relative;
     }
-
+    
     #education .edu-row .edu-cols .my-info::before {
         content: '';
         position: absolute;
@@ -511,6 +511,7 @@ margin: 15px 0;
         font-style: 17px;
         font-weight: bold;
         text-transform: uppercase;
+        margin-left: 20px;
     }
 
     #education .edu-row .edu-cols .my-info p {
@@ -518,12 +519,12 @@ margin: 15px 0;
         font-style: 15px;
         font-weight: 600;
         font-style: italic;
-        margin: 10px 0;
+        margin: 10px 20px;
     }
 
     #education .edu-row .edu-cols .my-info ul li {
         margin: 10px 0;
-        margin-left: 20px;
+        margin-left: 35px;
         color: var(--textColor);
         font-size: 15px;
         font-weight: 500;
