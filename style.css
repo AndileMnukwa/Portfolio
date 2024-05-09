@@ -151,7 +151,7 @@ color: var(--themeColor);
 
  @media only screen and (max-width: 1050px) {
     header {
-        left: 300px;
+        left: 9;
     }
     header .footer {
         left: -300px;
@@ -183,7 +183,7 @@ color: var(--themeColor);
  #home {
     height: 100vh;
     width: 100%;
-    background-image: url(grad.jpeg);
+    background-image: url(image/grad.jpeg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -685,7 +685,8 @@ margin: 15px 0;
 
 #portfolio .port-row .port-item .port-info h4 + p {
     color: var(--bgColor);
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 #portfolio .port-row .port-item .port-info a {
@@ -781,8 +782,8 @@ margin: 15px 0;
   }
 
   #services .service-row .service-box:hover {
-    color: white;
-    background-color: var(--themeColor);
+    color: black;
+    background-color: var(--iconbgColor);
     border-color: var(--themeColor);
     transition: 0.4s;
   }
@@ -795,7 +796,7 @@ margin: 15px 0;
 
   #services .service-row .service-box .ser-info h4 + p {
     color: rgb(211, 209, 209);
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
   }
 
