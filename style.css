@@ -151,7 +151,7 @@ color: var(--themeColor);
 
  @media only screen and (max-width: 1050px) {
     header {
-        left: 9;
+        left: -300px;
     }
     header .footer {
         left: -300px;
@@ -165,7 +165,8 @@ color: var(--themeColor);
  .mobile-nav-active header {
     left: 0;
  }
- .mobile-nav-active footer {
+
+ .mobile-nav-active .footer {
     left: 0;
  }
 
