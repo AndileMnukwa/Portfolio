@@ -39,6 +39,8 @@
                 <hr><br>
                 <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio </a></li>
                 <hr><br>
+                <li><a href="#services"><i class="fa-solid fa-server"></i> Services </a></li><br>
+                <hr>
                 <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact Me </a></li>
                 <hr><br>
                 <li><a href="#fact"><i class="fas fa-lightbulb"></i> Facts </a></li><br>
@@ -367,7 +369,70 @@
             </div>
          </section>
 
-         <!-- ---========SERVICES SECTION========------  -->
+           <!-- ---========SERVICES SECTION========------  -->
+           <section id="services">
+            <h1 class="sub-heading">Services</h1>
+            <div class="divider"></div>
+            <p class="sub-para">I specialize in crafting dynamic and interactive digital experiences across web and mobile platforms.</p>
+             <div class="service-row">
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-solid fa-code code"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>Front-End Development</h4>
+                    <p>With a keen eye for design and a deep understanding of user experience principles, I specialize in front-end development.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-solid fa-palette pal"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>Web Designing</h4>
+                    <p>As a web designer, I blend creativity with functionality to craft visually stunning and user-friendly digital experiences.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-brands fa-android and"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>App Development</h4>
+                    <p>As an app developer, I specialize in creating immersive and user-centric mobile applications that seamlessly blend functionality with design.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-brands fa-react rct"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>React App Development</h4>
+                    <p>As a React app developer, I specialize in building dynamic and interactive web applications with a focus on scalability and performance.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-brands fa-js js"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>JavaScript Development</h4>
+                    <p>As a JavaScript developer, I specialize in building dynamic and interactive web applications that push the boundaries of user experience.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-solid fa-laptop-code lcode"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>Web Development</h4>
+                    <p>As a web developer, I specialize in creating dynamic and responsive websites that deliver exceptional user experiences.</p>
+                </div>
+            </div>
+        </div>
+         </section>
+
+         <!-- ---======== CONTACT SECTION========------  -->
          <section id="contact">
             <h1 class="sub-heading">Contact</h1>
             <div class="divider"></div>
@@ -408,14 +473,16 @@
                 </div>
 
                 <div class="contact-right">
-                    <form action="">
+                    <form action="#">  
+                        <input type="hidden" name="toEmail" value="mnukwa1996@mail.com">  
                         <input type="text" name="name" id="name" placeholder="Your Name" required>
                         <input type="email" name="email" id="email" placeholder="Your Email" required>
                         <input type="text" name="phone" id="phone" placeholder="Phone Call" required>
                         <input type="text" name="subject" id="subject" placeholder="Subject" required>
                         <textarea name="message" id="message" rows="9" placeholder="Your Message" required></textarea>
                         <input type="submit" value="Send Message">
-                    </form>
+                      </form>
+                      <div id="messages-container"></div>
                 </div>
             </div>
          </section>

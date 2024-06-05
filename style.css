@@ -727,6 +727,7 @@ margin: 15px 0;
     background-color: var(--iconbgColor);
     border-color: var(--themeColor);
     transition: 0.4s;
+    transform: translateY(-5px);
   }
 
   #Skills .Skills-row .Skills-box .ser-info h4 {
@@ -761,6 +762,72 @@ margin: 15px 0;
           }
     }
 
+    
+  /* ---========Services Section========------ */
+  #services {
+    padding: 70px 30px;
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to right, #4e4376, #2b5876);
+}
+
+#services .service-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    grid-gap: 30px;
+}
+
+#services .service-row .service-box {
+    background-color: var(--iconbgColor);
+    border: 10px solid var(--iconbgColor);
+    color: #fff;
+    padding: 50px 30px 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+#services .service-row .service-box:hover {
+    transform: translateY(-5px);
+    border: 10px solid var(--textColor)
+}
+
+#services .service-row .service-box .icon {
+    font-size: 40px;
+    color: #0ec8cb;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#services .service-row .service-box .ser-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#services .service-row .service-box .ser-info p {
+    color: rgb(211, 209, 209);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+    #services .service-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #services .service-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
     /* ---========Contact Section========------ */
     #contact {
         padding: 70px 30px;
@@ -865,6 +932,14 @@ margin: 15px 0;
     #contact .contact-row .contact-right form input[type=submit]:hover {
         background-color: var(--iconbgColor);
     }
+
+    #messages-container {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
 
        /* ---========Mobile View========------ */
     @media only screen and (max-width: 850px) {

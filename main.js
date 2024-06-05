@@ -16,42 +16,41 @@ let typed = new Typed('#auto-Input',{
 })
 
 // Contact validation
-document.addEventListener('DOMContentLoaded', function () {
-const form = document.querySelector('form');
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('#contact-form');
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
 
-form.addEventListener('submit', function (event) {
-  event.preventDefault(); 
-
-  
-  const name = form.querySelector('input[name="name"]').value.trim();
-  const email = form.querySelector('input[name="email"]').value.trim();
-  const phone = form.querySelector('input[name="phone"]').value.trim();
-  const message = form.querySelector('textarea[name="message"]').value.trim();
-
-  
-  if (name === '' || email === '' || phone === '' || message === '') {
-      alert('Please fill in all fields.');
-      return;
-  }
-
-
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(email)) {
-      alert('Please enter a valid email address.');
-      return;
-  }
-
-  
-  const phoneRegex = /^\d{10}$/;
-  if (!phoneRegex.test(phone)) {
-      alert('Please enter a valid phone number (10 digits without spaces or special characters).');
-      return;
-  }
-
- 
-  alert('Your message has been sent successfully!');
-
-  
-  form.reset();
+        const formData = new FormData(form);
+        const name = formData.get('name').trim();
+        const email = formData.get('email').trim();
+        const phone = formData.get('phone').trim();
+        const subject = formData.get('subject').trim();
+        const message = formData.get('message').trim();
+fetch('/send-email', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+        name,
+        email,
+        phone,
+        subject,
+        message,
+    }),
+})
+.then(response => response.json())
+.then(data => {
+    if (data.success) {
+        alert('Message sent successfully!');
+        form.reset();
+    } else {
+        alert('Failed to send message.');
+    }
+})
+.catch((error) => {
+    console.error('Error:', error);
+});
 });
 });
