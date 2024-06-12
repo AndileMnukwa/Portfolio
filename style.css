@@ -779,7 +779,7 @@ margin: 15px 0;
 }
 
 #services .service-row .service-box {
-    background-color: var(--iconbgColor);
+    background-color: var(--sidebgColor);
     border: 10px solid var(--iconbgColor);
     color: #fff;
     padding: 50px 30px 30px;
@@ -791,7 +791,10 @@ margin: 15px 0;
 
 #services .service-row .service-box:hover {
     transform: translateY(-5px);
-    border: 10px solid var(--textColor)
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to right, #4e4376, #2b5876);
+    border: none;
 }
 
 #services .service-row .service-box .icon {
