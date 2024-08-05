@@ -320,6 +320,11 @@ margin: 15px 0;
     color:var(--textColor);
     font-weight: 500;
     font-size: 18px; 
+    
+}#about .about-col .info-col .icon-list-col .icon-list ul li span a{
+    color:var(--textColor);
+    font-weight: 500;
+    font-size: 18px; 
 }
 
 /* ---======Mobile View=======---- */
