@@ -468,13 +468,18 @@
                 </div>
 
                 <div class="contact-right">
-                    <form action="">
+                    <form method="POST" id="form">
+                        <input type="hidden" name="access_key" value="a1c62d81-68c3-4f04-82f6-fa7307357d16">
+                        <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                        <input type="checkbox" name="botcheck" id="" style="display: none;">
+
                         <input type="text" name="name" id="name" placeholder="Your Name" required>
                         <input type="email" name="email" id="email" placeholder="Your Email" required>
                         <input type="text" name="phone" id="phone" placeholder="Phone Call" required>
                         <input type="text" name="subject" id="subject" placeholder="Subject" required>
                         <textarea name="message" id="message" rows="9" placeholder="Your Message" required></textarea>
                         <input type="submit" value="Send Message">
+                        <div id="result"></div>
                     </form>
                 </div>
          </section>
