@@ -4,55 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Andile Mnukwa - Full-Stack Developer Portfolio">
+    <meta name="keywords" content="web developer, full-stack, software engineer, portfolio, Andile Mnukwa">
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Andile||Portfolio</title>
+    <title>Andile Mnukwa | Full-Stack Developer</title>
+    <!-- Favicon -->
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <!-- Header Section -->
     <header>
-        <!-- profile -->
+        <!-- Profile -->
         <div class="profile">
-            <img src="image/myself.png" alt="">
+            <img src="image/myself.png" alt="Andile Mnukwa">
             <h1>Andile Mnukwa</h1>
             <div class="social-icons">
-                <a href="https://www.facebook.com/home.php"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/in/mnukwaandile/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/AndileMnukwa"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/home.php" aria-label="Facebook Profile" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/mnukwaandile/" aria-label="LinkedIn Profile" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AndileMnukwa" aria-label="GitHub Profile" title="GitHub"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
 
         <!-- NAV BAR -->
         <nav>
             <ul>
-                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i> Home </a></li>
-                <hr><br>
-                <li><a href="#about"><i class="fa-solid fa-user"></i> About </a></li>
-                <hr><br>
-                <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education </a></li>
-                <hr><br>
-                <li><a href="#Skills"><i class="fa-solid fa-book-open"></i> Skills </a></li>
-                <hr><br>
-                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio </a></li>
-                <hr><br>
-                <li><a href="#services"><i class="fa-solid fa-server"></i> Services </a></li><br>
-                <hr>
-                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact Me </a></li>
-                <hr><br>
-                <li><a href="#fact"><i class="fas fa-lightbulb"></i> Facts </a></li><br>
-                <hr>
-
-
+                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#Skills"><i class="fa-solid fa-code"></i> Skills</a></li>
+                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#services"><i class="fa-solid fa-server"></i> Services</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                <li><a href="#fact"><i class="fas fa-lightbulb"></i> Facts</a></li>
             </ul>
         </nav>
 
         <!-- Footer -->
         <div class="footer">
-            <p>&copy; Copyright 2024 <br>Designed by <a href="#">Andile Mnukwa</a></p>
+            <p>&copy; 2025 Andile Mnukwa <br>All Rights Reserved</p>
         </div>
     </header>
 
@@ -63,9 +57,12 @@
         <!--=======HOME SECTION ========== -->
         <section id="home">
             <div class="home-row">
-                <h1>Hi, this is <br>Andile Mnukwa<span>.</span></h1>
-                <p>I'm a <span id="auto-Input"></span></p><br>
-                <a href="image/Andile_Mnukwa CV.pdf" title="Curriculumn Vitae" class="btn">Download CV</a>
+                <h1>Hello, I'm<br>Andile Mnukwa<span>.</span></h1>
+                <p>I'm a <span id="auto-Input"></span></p>
+                <div>
+                    <a href="image/Andile_Mnukwa CV.pdf" title="Download CV" class="btn"><i class="fas fa-download"></i> Download CV</a>
+                    <a href="#contact" class="btn"><i class="fas fa-paper-plane"></i> Hire Me</a>
+                </div>
             </div>
         </section>
 
@@ -74,65 +71,58 @@
             <h1 class="sub-heading">About Me</h1>
             <div class="divider"></div>
             <p class="sub-para">
-                I am a graduate from Walter Sisulu University with a Diploma in Information Technology, specializing
-                in Software Development.</p>
+                I am a passionate Full-Stack Developer with expertise in creating visually appealing and user-friendly
+                digital experiences. My focus is on crafting clean, efficient code and designing intuitive interfaces.
+            </p>
 
             <div class="about-col">
                 <div class="info-col">
-                    <h2>Full-Stack Developer</h2>
-                    <p>I specialize in crafting visually appealing and user-friendly
-                        interfaces for websites and applications.</p>
+                    <h2>Full-Stack Developer & UI/UX Designer</h2>
+                    <p>I specialize in building modern web applications and responsive websites that deliver exceptional user experiences. 
+                       With a strong foundation in both front-end and back-end technologies, I create solutions that are not only 
+                       visually appealing but also performant and secure.</p>
                     <div class="icon-list-col">
                         <div class="icon-list">
                             <ul>
-                                <li>
-                                    <i class="fa-solid fa-angles-right"></i>
-                                    <strong>Website</strong>
-                                    <span><a
-                                            href="https://binarybrainsconsulting.netlify.app/">:www.BinaryBrains</a></span>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Website:</strong>
+                                    <span><a href="https://binarybrainsconsulting.netlify.app/">binarybrainsconsulting.com</a></span>
                                 </li>
-
-                                <li><i class="fa-solid fa-angles-right"></i><strong>Phone</strong> <span>: +27 65 607
-                                        1416</span></li>
-                                <li><i class="fa-solid fa-angles-right"></i><strong>Email</strong>
-                                    <span>: andile.reeman@gmail.com</span>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Phone:</strong> <span>+27 65 607 1416</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Email:</strong>
+                                    <span>andile.reeman@gmail.com</span>
                                 </li>
                             </ul>
                         </div>
 
                         <div class="icon-list">
                             <ul>
-                                <li><i class="fa-solid fa-angles-right"></i><strong>Diploma</strong> <span>Information
-                                        Technology</span></li>
-                                <li><i class="fa-solid fa-angles-right"></i><strong>City of</strong> <span>Cape
-                                        Town, Western Cape</span></li>
-                                <li><i class="fa-solid fa-angles-right"></i><strong>Certifications</strong> <span>IBM &
-                                        Coursera
-                                    </span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Degree:</strong> <span>Diploma in Information Technology</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Location:</strong> <span>Cape Town, Western Cape</span></li>
+                                <li><i class="fa-solid fa-angles-right"></i><strong>Certifications:</strong> <span>IBM & Coursera</span></li>
                             </ul>
                         </div>
                     </div>
-                    <a href="#contact" class="btn">Hire Me</a>
-
-
+                    <a href="#contact" class="btn">Let's Talk</a>
                 </div>
             </div>
         </section>
 
         <!-- ===== EDUCATION SECTION ======== -->
-
         <section id="education">
-            <h1 class="sub-heading">Education</h1>
+            <h1 class="sub-heading">Education & Experience</h1>
             <div class="divider"></div>
+            <p class="sub-para">
+                My academic background and professional journey have equipped me with the skills and knowledge necessary to excel in the tech industry.
+            </p>
 
             <div class="edu-row">
                 <div class="edu-cols">
-                    <h2>Summary</h2>
+                    <h2>Education</h2>
                     <div class="my-info">
-                        <h3>Andile Mnukwa</h3>
+                        <h3>Personal Details</h3>
                         <ul>
-                            <li>City of Cape Town, Western Cape</li>
-                            <li>0656071416</li>
+                            <li>Cape Town, Western Cape</li>
+                            <li>+27 65 607 1416</li>
                             <li>andile.reeman@gmail.com</li>
                         </ul>
                     </div>
@@ -141,8 +131,7 @@
                         <h3>Diploma in Information Technology</h3>
                         <span class="sp-box">2019-2022</span>
                         <p>Walter Sisulu University</p>
-                        <p>A passionate IT enthusiast with a diploma in Software Development from Walter Sisulu
-                            University.</p>
+                        <p>Specialized in Software Development with a focus on programming fundamentals, algorithms, database management, and software engineering principles.</p>
                     </div>
                 </div>
 
@@ -153,9 +142,9 @@
                         <span class="sp-box">2024-2025</span>
                         <p>CAPACITI, UVU Africa</p>
                         <ul>
-                            <li>At Capaciti, I have gained extensive skills in software development. </li>
-                            <li>With this expertise, I am capable of building both websites and applications.
-                            </li>
+                            <li>Developed responsive web applications using modern JavaScript frameworks (React, Node.js).</li>
+                            <li>Implemented RESTful APIs and database solutions for scalable applications.</li>
+                            <li>Collaborated with UX designers to create intuitive and accessible user interfaces.</li>
                         </ul>
                     </div>
 
@@ -164,287 +153,283 @@
                         <span class="sp-box">2023-2024</span>
                         <p>4IR</p>
                         <ul>
-                            <li>I honed my software development skills through hands-on projects. </li>
-                            <li>This experience allowed me to proficiently build websites and applications, leveraging
-                                both front-end and back-end technologies. </li>
+                            <li>Built and maintained web applications using modern development practices.</li>
+                            <li>Worked with cross-functional teams to deliver high-quality solutions on time.</li>
+                            <li>Managed database design and optimization for improved application performance.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ---========SKILLS SECTION========------  -->
+        <!-- ===== SKILLS SECTION ========== -->
         <section id="Skills">
-            <h1 class="sub-heading">Skills</h1>
+            <h1 class="sub-heading">Technical Skills</h1>
             <div class="divider"></div>
             <p class="sub-para">Throughout my journey, I've acquired a robust skill set encompassing web development
-                technologies.</p>
+                technologies, enabling me to create comprehensive digital solutions.</p>
             <div class="Skills-row">
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
+                    <div class="icon">
+                        <i class="fa-brands fa-html5 code"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>HTML5</h4>
+                        <p>Expert in writing semantic HTML code for accessible and search engine optimized websites.</p>
+                    </div>
+                </div>
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
                         <i class="fa-brands fa-css3-alt pal"></i>
                     </div>
                     <div class="ser-info">
                         <h4>CSS</h4>
-                        <p>Competent in CSS, with a focus on responsive design, Flexbox, and Grid.</p>
+                        <p>Proficient in CSS with expertise in responsive design, Flexbox, Grid, and animations.</p>
                     </div>
                 </div>
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
                         <i class="fa-brands fa-js js"></i>
                     </div>
                     <div class="ser-info">
                         <h4>JavaScript</h4>
-                        <p>Knowledgeable about JavaScript for creating dynamic websites.</p>
+                        <p>Strong command of JavaScript for creating dynamic, interactive web experiences.</p>
                     </div>
                 </div>
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
                         <i class="fa-brands fa-react and"></i>
                     </div>
                     <div class="ser-info">
                         <h4>React</h4>
-                        <p>Competent of creating cutting-edge, dynamic web applications with React.</p>
+                        <p>Experienced in building modern, component-based UIs with React and related libraries.</p>
                     </div>
                 </div>
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
                         <i class="fa-brands fa-node node"></i>
                     </div>
                     <div class="ser-info">
                         <h4>Node.js</h4>
-                        <p>knowledgeable about using Node.js to create scalable and effective server-side apps.</p>
+                        <p>Skilled in developing scalable server-side applications with Node.js and Express.</p>
                     </div>
                 </div>
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
                         <i class="fa-brands fa-python rct"></i>
                     </div>
                     <div class="ser-info">
                         <h4>Python</h4>
-                        <p>Effective at using Python to create a wide range of applications.</p>
+                        <p>Competent in Python development for various applications and data analysis tasks.</p>
                     </div>
                 </div>
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
                         <i class="fa-brands fa-java jav"></i>
                     </div>
                     <div class="ser-info">
                         <h4>Java</h4>
-                        <p>Competent in Java for creating scalable and reliable apps.</p>
+                        <p>Proficient in Java for creating enterprise-level applications and Android development.</p>
                     </div>
                 </div>
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
                         <i class="fas fa-laptop-code lcode"></i>
                     </div>
                     <div class="ser-info">
                         <h4>C#</h4>
-                        <p>Proficient at leveraging the.NET framework to create scalable.</p>
+                        <p>Experienced in C# development within the .NET framework for scalable applications.</p>
                     </div>
                 </div>
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
                         <i class="fa-solid fa-database js"></i>
                     </div>
                     <div class="ser-info">
                         <h4>MySQL</h4>
-                        <p>I specialize in building dynamic and interactive web applications
-                            that push the boundaries of user experience.</p>
+                        <p>Skilled in database design, optimization, and management using MySQL.</p>
                     </div>
                 </div>
-                <div class="Skills-box">
-                    <div class="icon">
-                        <i class="fa-brands fa-wordpress code"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>WordPress</h4>
-                        <p>Expert in using WordPress to build adaptable.</p>
-                    </div>
-                </div>
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
                         <i class="fa-solid fa-code-compare js"></i>
                     </div>
                     <div class="ser-info">
                         <h4>Git</h4>
-                        <p>Capable of managing version control using Git.</p>
+                        <p>Experienced in version control using Git with strong collaboration workflows.</p>
                     </div>
                 </div>
-                <div class="Skills-box">
+                <div class="Skills-box animate-on-scroll">
                     <div class="icon">
-                        <i class="fa-solid fa-database js"></i>
+                        <i class="fa-brands fa-wordpress code"></i>
                     </div>
                     <div class="ser-info">
-                        <h4>Pen-Testing</h4>
-                        <p>Knowledgeable about penetration testing techniques.</p>
+                        <h4>WordPress</h4>
+                        <p>Proficient in WordPress development including themes, plugins, and custom solutions.</p>
+                    </div>
+                </div>
+                <div class="Skills-box animate-on-scroll">
+                    <div class="icon">
+                        <i class="fa-solid fa-shield-halved js"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Cybersecurity</h4>
+                        <p>Knowledgeable about security best practices and penetration testing techniques.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <!-- ---========PORTFOLIO SECTION========------  -->
-
+        <!-- ===== PORTFOLIO SECTION ========== -->
         <section id="portfolio">
             <h1 class="sub-heading">Portfolio</h1>
             <div class="divider"></div>
             <p class="sub-para">Passionate about crafting user-friendly digital experiences, I prioritize intuitive
-                design and seamless functionality in every project.</p>
+                design and seamless functionality in every project I undertake.</p>
 
             <div class="port-row">
-                <div class="port-item">
+                <div class="port-item animate-on-scroll">
                     <div class="port-img">
-                        <img src="image/binary.png" height="300" alt="">
+                        <img src="image/binary.png" alt="Binary Brains Consulting Website">
                     </div>
                     <div class="port-info">
-                        <h4>Consulting Website</h4>
-                        <p>The website is a IT Consulting company that offers the 4 services,namely : Data
-                            analysis,Software engineering,Cyber security and Technical Support.</p>
-                        <a href="https://binarybrainsconsulting.netlify.app/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h4>IT Consulting Website</h4>
+                        <p>A comprehensive platform for an IT consulting company offering services in data analysis, software engineering, cybersecurity, and technical support.</p>
+                        <a href="https://binarybrainsconsulting.netlify.app/" target="_blank" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 
-                <div class="port-item">
+                <div class="port-item animate-on-scroll">
                     <div class="port-img">
-                        <img src="image/chatapp.png" height="300">
+                        <img src="image/chatapp.png" alt="Chat Application">
                     </div>
                     <div class="port-info">
-                        <h4>ChatApp</h4>
-                        <p>Designed and developed a real-time chat application that facilitates seamless communication
-                            between users.</p>
-                        <a href="https://chat-app-chi-livid.vercel.app/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h4>WeChat</h4>
+                        <p>A real-time chat application built with modern web technologies, enabling seamless communication between users with a clean, intuitive interface.</p>
+                        <a href="https://chat-app-chi-livid.vercel.app/" target="_blank" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="port-item">
+                
+                <div class="port-item animate-on-scroll">
                     <div class="port-img">
-                        <img src="image/Screenshot (21).png" height="300" alt="">
+                        <img src="image/Screenshot (21).png" alt="Online Appointment System">
                     </div>
                     <div class="port-info">
-                        <h4>Online Appointment</h4>
-                        <p>As a third-year student at Walter Sisulu University, I led a project to develop an Online
-                            Appointment application, aimed at streamlining the scheduling process for healthcare
-                            providers.</p>
-                        <a href="https://sites.google.com/view/online-appointment/home"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h4>Online Appointment System</h4>
+                        <p>A comprehensive healthcare appointment scheduling platform that streamlines the booking process for patients and healthcare providers.</p>
+                        <a href="https://sites.google.com/view/online-appointment/home" target="_blank" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="port-item">
+                
+                <div class="port-item animate-on-scroll">
                     <div class="port-img">
-                        <img src="image/event.png" height="300" alt="">
+                        <img src="image/event.png" alt="VibeCatcher Event Platform">
                     </div>
                     <div class="port-info">
                         <h4>VibeCatcher</h4>
-                        <p>It offers user-friendly interfaces for seamless navigation and interaction built using Java.
-                        </p>
-                        <a href="https://ai-powered-event.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p>An event discovery and management platform built with React & node, featuring user-friendly interfaces for seamless navigation and event planning.</p>
+                        <a href="https://ai-powered-event.vercel.app/" target="_blank" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="port-item">
+                
+                <div class="port-item animate-on-scroll">
                     <div class="port-img">
-                        <img src="image/bank.PNG" height="300" alt="">
+                        <img src="image/bank.PNG" alt="Banking Application">
                     </div>
                     <div class="port-info">
-                        <h4>Bank Application</h4>
-                        <p>As a training candidate at CAPACITI, I contributed to the development of a comprehensive
-                            Banking App, showcasing my proficiency in full-stack development.</p>
-                        <a href="https://sites.google.com/view/online-appointment/home"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h4>Banking Application</h4>
+                        <p>A comprehensive banking platform featuring account management and transaction processing.</p>
+                        <a href="https://sites.google.com/view/online-appointment/home" target="_blank" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="port-item">
+                
+                <div class="port-item animate-on-scroll">
                     <div class="port-img">
-                        <img src="image/computer.png" height="300" alt="">
+                        <img src="image/computer.png" alt="Laptop Finder Application">
                     </div>
                     <div class="port-info">
-                        <h4>laptop Finder</h4>
-                        <p>"Developed an intuitive e-commerce platform tailored for laptop sales, enabling users to
-                            effortlessly search, compare, and purchase laptops based on their preferences."</p>
-                        <a href="https://laptop-finder-dun.vercel.app/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h4>Laptop Finder</h4>
+                        <p>An landing page specialized in laptop sales, allowing users to search.</p>
+                        <a href="https://laptop-finder-dun.vercel.app/" target="_blank" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ---========SERVICES SECTION========------  -->
+        <!-- ===== SERVICES SECTION ========== -->
         <section id="services">
             <h1 class="sub-heading">Services</h1>
             <div class="divider"></div>
-            <p class="sub-para">I specialize in crafting dynamic and interactive digital experiences across web and
-                mobile platforms.</p>
+            <p class="sub-para">I specialize in delivering high-quality digital solutions that help businesses and individuals achieve their goals in the digital landscape.</p>
+            
             <div class="service-row">
-                <div class="service-box">
+                <div class="service-box animate-on-scroll">
                     <div class="icon">
-                        <i class="fa-solid fa-code code"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>Front-End Development</h4>
-                        <p>With a keen eye for design and a deep understanding of user experience principles, I
-                            specialize in front-end development.</p>
-                    </div>
-                </div>
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-solid fa-palette pal"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>Web Designing</h4>
-                        <p>As a web designer, I blend creativity with functionality to craft visually stunning and
-                            user-friendly digital experiences.</p>
-                    </div>
-                </div>
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-brands fa-android and"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>App Development</h4>
-                        <p>As an app developer, I specialize in creating immersive and user-centric mobile applications
-                            that seamlessly blend functionality with design.</p>
-                    </div>
-                </div>
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-brands fa-react rct"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>React App Development</h4>
-                        <p>As a React app developer, I specialize in building dynamic and interactive web applications
-                            with a focus on scalability and performance.</p>
-                    </div>
-                </div>
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-brands fa-js js"></i>
-                    </div>
-                    <div class="ser-info">
-                        <h4>JavaScript Development</h4>
-                        <p>As a JavaScript developer, I specialize in building dynamic and interactive web applications
-                            that push the boundaries of user experience.</p>
-                    </div>
-                </div>
-                <div class="service-box">
-                    <div class="icon">
-                        <i class="fa-solid fa-laptop-code lcode"></i>
+                        <i class="fa-solid fa-code"></i>
                     </div>
                     <div class="ser-info">
                         <h4>Web Development</h4>
-                        <p>As a web developer, I specialize in creating dynamic and responsive websites that deliver
-                            exceptional user experiences.</p>
+                        <p>Creating responsive, modern websites and web applications that deliver exceptional user experiences across all devices.</p>
+                    </div>
+                </div>
+                
+                <div class="service-box animate-on-scroll">
+                    <div class="icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>UI/UX Design</h4>
+                        <p>Crafting intuitive and engaging user interfaces that enhance user experience and drive engagement with your digital products.</p>
+                    </div>
+                </div>
+                
+                <div class="service-box animate-on-scroll">
+                    <div class="icon">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>React Development</h4>
+                        <p>Building dynamic, interactive web applications with React that provide seamless user experiences and optimal performance.</p>
+                    </div>
+                </div>
+                
+                <div class="service-box animate-on-scroll">
+                    <div class="icon">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Mobile App Development</h4>
+                        <p>Developing cross-platform mobile applications that deliver native-like experiences using modern frameworks and technologies.</p>
+                    </div>
+                </div>
+                
+                <div class="service-box animate-on-scroll">
+                    <div class="icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Database Design</h4>
+                        <p>Creating efficient, scalable database solutions to store and manage your application data securely and reliably.</p>
+                    </div>
+                </div>
+                
+                <div class="service-box animate-on-scroll">
+                    <div class="icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="ser-info">
+                        <h4>Cybersecurity</h4>
+                        <p>Implementing security best practices to protect your applications and data from vulnerabilities and cyber threats.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- ---======== CONTACT SECTION========------  -->
+        <!-- ===== CONTACT SECTION ========== -->
         <section id="contact">
-            <h1 class="sub-heading">Contact</h1>
+            <h1 class="sub-heading">Contact Me</h1>
             <div class="divider"></div>
-            <p class="sub-para">Get in touch with me to discuss your project or any inquiries you may have. Fill out the
-                form below, and I'll get back to you as soon as possible.</p>
+            <p class="sub-para">Let's discuss how we can work together. Reach out to me for collaborations, project inquiries, or just to say hello!</p>
 
             <div class="contact-row">
                 <div class="contact-left">
@@ -457,28 +442,31 @@
                             <p>andile.reeman@gmail.com</p>
                         </div>
                     </div>
+                    
                     <div class="icon-box">
                         <div class="icon">
                             <i class="fa-solid fa-phone"></i>
                         </div>
                         <div class="info">
                             <h4>Phone</h4>
-                            <p>0656071416</p>
+                            <p>+27 65 607 1416</p>
                         </div>
                     </div>
+                    
                     <div class="icon-box">
                         <div class="icon">
                             <i class="fa-solid fa-location-dot"></i>
                         </div>
                         <div class="info">
                             <h4>Location</h4>
-                            <p>Salt River, Western Cape</p>
+                            <p>Salt River, Western Cape, South Africa</p>
                         </div>
                     </div>
+                    
                     <div class="map">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13241.850916815663!2d18.465917000000008!3d-33.9292249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5da11f6d3cf9%3A0xa6835b8eda24c14a!2sSalt%20River%2C%20Cape%20Town%2C%207925!5e0!3m2!1sen!2sza!4v1715122382939!5m2!1sen!2sza"
-                            width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
@@ -486,58 +474,62 @@
                 <div class="contact-right">
                     <form method="POST" id="form">
                         <input type="hidden" name="access_key" value="a1c62d81-68c3-4f04-82f6-fa7307357d16">
-                        <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                        <input type="hidden" name="subject" value="New Portfolio Contact Message">
                         <input type="checkbox" name="botcheck" id="" style="display: none;">
 
                         <input type="text" name="name" id="name" placeholder="Your Name" required>
                         <input type="email" name="email" id="email" placeholder="Your Email" required>
-                        <input type="text" name="phone" id="phone" placeholder="Phone Call" required>
+                        <input type="text" name="phone" id="phone" placeholder="Your Phone Number" required>
                         <input type="text" name="subject" id="subject" placeholder="Subject" required>
-                        <textarea name="message" id="message" rows="9" placeholder="Your Message" required></textarea>
+                        <textarea name="message" id="message" rows="6" placeholder="Your Message" required></textarea>
                         <input type="submit" value="Send Message">
                         <div id="result"></div>
                     </form>
                 </div>
-        </section>
-
-        <!-- ===== FACT SECTION ======== -->
-        <section id="fact">
-            <h1 class="sub-heading">Facts</h1>
-            <div class="divider"></div>
-            <p class="sub-para">Absolutely! Having collaborated on numerous projects both in academic settings and
-                professional environments, and currently engaged in ongoing endeavors, underscores my commitment and
-                proficiency.</p>
-
-            <div class="fact-row">
-                <div class="fact-box">
-                    <i class="fa-solid fa-face-smile"></i>
-                    <strong>20+</strong>
-                    <p>satisfied teammates</p>
-                </div>
-                <div class="fact-box">
-                    <i class="fa-solid fa-file-code"></i>
-                    <strong>7+</strong>
-                    <p>projects Completed</p>
-                </div>
-                <div class="fact-box">
-                    <i class="fa-solid fa-headset"></i>
-                    <strong>24/7</strong>
-                    <p>Working Hours</p>
-                </div>
-                <div class="fact-box">
-                    <i class="fa-solid fa-clock-rotate-left"></i>
-                    <strong>3+</strong>
-                    <p>Pending Projects</p>
-                </div>
             </div>
         </section>
 
+        <!-- ===== FACTS SECTION ======== -->
+        <section id="fact">
+            <h1 class="sub-heading">Facts & Achievements</h1>
+            <div class="divider"></div>
+            <p class="sub-para">Some highlights from my professional journey that showcase my experience and commitment to delivering high-quality results.</p>
 
+            <div class="fact-row">
+                <div class="fact-box animate-on-scroll">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <strong>20+</strong>
+                    <p>Satisfied Clients</p>
+                </div>
+                
+                <div class="fact-box animate-on-scroll">
+                    <i class="fa-solid fa-file-code"></i>
+                    <strong>15+</strong>
+                    <p>Projects Completed</p>
+                </div>
+                
+                <div class="fact-box animate-on-scroll">
+                    <i class="fa-solid fa-headset"></i>
+                    <strong>24/7</strong>
+                    <p>Support Available</p>
+                </div>
+                
+                <div class="fact-box animate-on-scroll">
+                    <i class="fa-solid fa-award"></i>
+                    <strong>5+</strong>
+                    <p>Professional Certifications</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <!-- =======Type JS ( for typing effect)========= -->
+
+    <!-- Back to top button -->
+    <a href="#home" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- =======Main JS========= -->
+    
+    <!-- Main JavaScript -->
     <script src="main.js"></script>
 </body>
-
 </html>
